@@ -26,6 +26,11 @@ class Produto(Base):
     id = Column(Integer, primary_key=True, autoincrement=True)
     nome = Column(String)
     valor = Column(Float)
+    cor = Column(String)
+    sabor = Column(String)
+    tamanho = Column(String)
+    
+    
 
 @dataclass
 class Venda(Base):
