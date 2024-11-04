@@ -1,13 +1,23 @@
-import os
-os.system("cls || clear")
-from dataclasses import dataclass
+def caracteristicas_produto():
+    pass
 
-#defs
-def limpa_tela():
-    os.system("cls || clear")
-    
-#class
-@dataclass
-class Usuario:
-    vendas:float
-    
+#Menu
+print("""
+Código || Descrição
+1-Produtos.
+2-Tamanho do produto.
+3-Sabores.
+4-Total a pagar.
+5-Sair.
+""")
+
+#começo do código
+opcao_menu=int(input("Digite uma opção correspondente ao código:"))
+
+match(opcao_menu):
+    case 1:
+        print("Escolha o tipo de gelado, que você quer!")
+        print("""
+    Código || Decrição
+    1-   
+              """)
