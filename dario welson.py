@@ -1,14 +1,14 @@
 def caracteristicas_produto():
-    pass
+    opcao_menu2=int(input("Digite uma opção correspondente ao código:"))
+    if opcao_menu2 ==1:
+        print("Mil")
 
 #Menu
 print("""
 Código || Descrição
 1-Produtos.
-2-Tamanho do produto.
-3-Sabores.
-4-Total a pagar.
-5-Sair.
+2-Total a pagar.
+3-Sair.
 """)
 
 #começo do código
@@ -19,5 +19,12 @@ match(opcao_menu):
         print("Escolha o tipo de gelado, que você quer!")
         print("""
     Código || Decrição
-    1-   
+    1-Milkshake
+    2-Sovertes
+    3-Bolos de pote.
+    4-Geladinhos.
+    5-Picolé
               """)
+        
+        
+            
