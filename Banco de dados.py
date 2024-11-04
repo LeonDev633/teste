@@ -31,5 +31,6 @@ class Produto(Base):
 class Venda(Base):
     __tablename__ = "vendas"
     
+    id_venda = Column(Integer, primary_key=True, autoincrement=True)
     nome_comprador = Column(String)
     data_de_compra = Column(DateTime)
